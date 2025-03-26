@@ -1,17 +1,14 @@
 [
   {
-    "modid": "abyss",
-    "name": "Obf-abyss-1.2.1-201-release",
-    "description": "Cracked Abyss CPVP Client.",
-    "version": "1.2.1",
+    "modid": "Mod",
+    "name": "Mod",
+    "description": "A Minecraft Mod.",
+    "version": "0.0.1",
     "mcversion": "1.12.2",
-    "logoFile": "abyss.png",
+    "logoFile": "textures/mod.png",
     "url": "",
     "updateUrl": "",
     "authorList": [
-      "BlueKitten",
-      "Ciruu",
-      "Crystallinqq"
     ],
     "screenshots": [],
     "dependencies": []
