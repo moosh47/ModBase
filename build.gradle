@@ -35,7 +35,7 @@ minecraft {
     version = project.forgeVersion
     runDir = 'run'
     mappings = project.mcpVersion
-    coreMod = 'me.ciruu.abyss.mixin.MixinLoaderForge'
+    coreMod = 'me.programmer.mod.mixin.MixinLoader'
     makeObfSourceJar = true
 
 }
@@ -99,7 +99,7 @@ shadowJar {
 
 mixin {
     defaultObfuscationEnv searge
-    add sourceSets.main, 'mixins.salhack.refmap.json'
+    add sourceSets.main, 'mixins.mod.refmap.json'
 }
 
 reobf {
@@ -112,13 +112,13 @@ reobf {
 jar {
     manifest {
         attributes(
-                'MixinConfigs': 'mixins.abyss.json',
+                'MixinConfigs': 'mixins.mod.json',
                 'tweakClass': 'org.spongepowered.asm.launch.MixinTweaker',
                 'TweakOrder': 0,
                 'FMLCorePluginContainsFMLMod': 'true',
-                'FMLCorePlugin': 'me.ciruu.abyss.mixin.MixinLoaderForge',
+                'FMLCorePlugin': 'me.programmer.mod.mixin.MixinLoader',
                 'ForceLoadAsMod': 'true',
-                'FMLAT': 'abyss_at.cfg'
+                'FMLAT': 'mod_at.cfg'
         )
     }
 
