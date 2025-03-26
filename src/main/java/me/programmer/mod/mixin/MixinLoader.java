@@ -12,7 +12,7 @@ import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
 @IFMLLoadingPlugin.MCVersion("1.12.2")
 @IFMLLoadingPlugin.Name("Mod")
 @IFMLLoadingPlugin.SortingIndex(1002)
-@IFMLLoadingPlugin.TransformerExclusions({ "me.programmer.mod.mixin.client", "me.programmer.mod.mixin.block", "me.programmer.mod.accessor" })
+@IFMLLoadingPlugin.TransformerExclusions({ "me.programmer.mod.mixin.client", "me.programmer.mod.mixin.block", "me.programmer.mod.mixin.accessor" })
 public class MixinLoader implements IFMLLoadingPlugin
 {
     public static final Logger log;
